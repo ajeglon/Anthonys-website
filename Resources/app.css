@@ -1,0 +1,188 @@
+html {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Header section*/
+
+h1 {
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+header {
+    border-bottom: rgb(231, 154, 231) solid 10px;
+    font-size: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bg-dark {
+    background-color: rgb(24, 23, 23) !important;
+}
+
+.navbar a{
+    font-size: 1.5em;
+    color: rgb(184, 179, 179);
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbarNav {
+    float: right;
+}
+
+#index-nav a:hover{
+    color: rgb(231, 154, 231);
+}
+
+#gallery-nav a:hover, #gallery-heading{
+    color: rgb(169, 221, 120);
+}
+
+#exhibitions-nav a:hover, #exhibition-heading{
+    color: rgb(240, 200, 125);
+}
+
+#about-nav a:hover, #about-heading{
+    color: rgb(122, 162, 236);
+}
+
+#experiments-nav a:hover, #experiments-heading{
+    color: rgb(178, 103, 221);
+}
+
+#follow-nav a:hover{
+    color: rgb(240, 240, 119);
+}
+
+.index-nav{
+    text-align: left;
+}
+
+/* Desktop */
+@media (min-width: 1250px) {
+    .mobileNav{
+        display: none;
+    }
+
+    .carousel-item {
+        min-height: 1100px;
+        object-fit: fill;
+    }
+}
+
+/* Mobile  */
+
+@media (max-width: 1250px) {
+    .desktopNav {
+        display: none;
+    }
+
+    .navbar-toggler{
+        border-style: solid !important;
+        border-color: rgb(184, 179, 179) !important; 
+    }
+
+    .navbar-toggler:hover{
+        border-color: white !important;
+    }
+}
+
+.carousel-item {
+    border-bottom: rgb(231, 154, 231) solid 10px;
+}
+
+.section-heading { 
+    border-bottom: rgb(231, 154, 231) solid 10px;
+    text-align: center;
+    background-color: rgb(24, 23, 23) !important;
+    font-size: 1.5em;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+/* Gallery Section */
+
+.gallery-tile {
+    background-color: rgb(99, 96, 96);
+    padding: 0;
+}
+
+.gallery-tile p {
+    background-color: rgb(99, 96, 96);
+    text-align: center;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.gallery-tile a {
+    text-decoration: none;
+}
+
+
+ .gallery-tile a:hover, .gallery-tile a > p:hover{
+    background-color: rgb(231, 154, 231);
+    border-radius: rgb(231, 154, 231) solid 100px;
+    border-radius: 5px;
+}
+
+.gallery-background {
+    max-height: 500px;
+    height: 500px;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* Exhibition */
+#exhibitions-section {
+    border-top: rgb(231, 154, 231) solid 10px;
+}
+
+.exhibition-poster {
+    max-width: 500px;
+    
+}
+
+.exhibition-list h3 {
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(24, 23, 23);
+    color: rgb(184, 179, 179);
+    padding: 10px;
+    clear: both;
+    text-align: right;
+    border-top: rgb(231, 154, 231) solid 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(184, 179, 179);
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: rgb(180, 12, 12);
+}
