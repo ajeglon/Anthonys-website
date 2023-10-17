@@ -15,6 +15,7 @@ Notes:
 - Hover over gallery image to also tranform text
 - Generally do the individual gallery pages (add aria tags, titles and descriptions)
 - Get Gallery images same size
+- Nav Bar on gallery pages (carousel goes over nav so can't go back to home page)
 - Exhibition images uniform size and centrally alligned
 - Generally do the individual exhibition pages
 - About section: look into rows and colums a bit more
